@@ -1,11 +1,16 @@
 extends ../../_component/layout/template
 block cool-config
   -
-    var myTitle = 'Learn to code HTML Attributes';
-    var myDescription = 'This is a HTML Attributes';
+    var myTitle = 'Learn to code HTML Attributes for beginners';
+    var myDescription = ' Attributes provide additional information about HTML elements';
     var landingPage = 'HTML';
-    var activeLink = 'html/attributes';
+    var activeLink = `html/attributes`;
 
 block awesome-content
   h1=myTitle
   p=myDescription
+  h2 Example
+  p(title="I'm a tooltip") This is a paragraph.
+  a(href="https://www.w3schools.com") This is a w3scools.com link.
+  p The next image will have width of 200 and height of 100.
+  img(src="https://assets.myntassets.com/dpr_2,h_240,q_50,w_180/assets/images/8420905/2019/2/26/81ec25fd-3c5d-402d-9d20-19242b9c998e1551181262089-Ripped-Denim-Jacket-With-Collar-7751551181261088-1.jpg", width="200", height="100", alt="Girl with a jacket")
