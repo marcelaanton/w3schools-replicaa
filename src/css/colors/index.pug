@@ -1,11 +1,40 @@
 extends ../../_component/layout/template
 block cool-config
   -
-    var myTitle = 'Learn to code CSS Colors';
-    var myDescription = 'This is a CSS Colors';
+    var myTitle = 'Learn to code CSS Colors for beginners';
+    var myDescription = 'Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.';
     var landingPage = 'CSS';
     var activeLink = '/css/colors';
 
 block awesome-content
   h1=myTitle
   p=myDescription
+  h2 Example
+  h3 Color Names
+  p Colors set by using color names:
+  table(width="100%")
+    tr
+      td(bgcolor="red", width="50%")
+        h1 Heading 1
+      td red
+    tr
+      td(bgcolor="green", width="50%")
+        h2 Heading 2
+      td green
+    tr
+      td(bgcolor="blue", width="50%")
+        h3 Heading 3
+      td blue
+    tr
+      td(bgcolor="orange", width="50%")
+        h4 Heading 4
+      td orange
+    tr
+      td(bgcolor="purple", width="50%")
+        h5 Heading 5
+      td purple
+    tr
+      td(bgcolor="yellow", width="50%")
+        h6 Heading 6
+      td yellow
+
