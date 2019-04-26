@@ -1,10 +1,20 @@
 extends ../_component/layout/template
 block cool-config
   -
-    var myTitle = 'Learn to code JavaScript ';
-    var myDescription = 'This is a JavaScript';
+    var myTitle = 'Learn to code JavaScript for beginners';
+    var myDescription = 'JavaScript is the programming language of HTML and the Web.';
     var landingPage = 'JavaScript';
     var activeLink = '';
 
 block awesome-content
-  h1 JavaScript
+  h1=myTitle
+  p=myDescription
+  h1 JavaScript Comments
+  p JavaScript comments can be used to explain JavaScript code, and to make it more readable.
+  h1 JavaScript Operators
+  p JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.
+  h1 JavaScript Variables
+  p JavaScript variables are containers for storing data values.
+  h2 My first JavaScript
+  button(type='button' onclick='document.getElementById ${demo}.innerHtml = Date()') Click me to display Date and Time.
+  p(id='demo')

@@ -8,17 +8,17 @@
 ✔ Use JavaScript variables to pass data through pug files @done(19-04-19 11:47)
 ✔ Refactor header using "each" loop @done(19-04-19 11:47)
 ✔ Refactor nav using "each" loop @done(19-04-19 12:29)
-☐ Create multiple pages
-    ☐ home
-    ☐ html
-        ☐ elements
-        ☐ attributes
-        ☐ headings
-    ☐ css
-        ☐ colors
-        ☐ backgrounds
-        ☐ borders
-    ☐ javascript
-        ☐ operators
-☐ Redeploy and fix the style.css path for github.io pages
-☐ The end - The next project will be "me awesome resume"
+✔ Create multiple pages @done(19-04-26 17:57)
+    ✔ home @done(19-04-26 17:59)
+    ✔ html @done(19-04-26 17:59)
+        ✔ elements @done(19-04-26 17:59)
+        ✔ attributes @done(19-04-26 17:59)
+        ✔ headings @done(19-04-26 17:59)
+    ✔ css @done(19-04-26 17:59)
+        ✔ colors @done(19-04-26 17:59)
+        ✔ backgrounds @done(19-04-26 17:59)
+        ✔ borders @done(19-04-26 17:59)
+    ✔ javascript @done(19-04-26 18:44)
+        ✔ operators @done(19-04-26 18:44)
+✔ Redeploy and fix the style.css path for github.io pages @done(19-04-26 18:44)
+✔ The end - The next project will be "me awesome resume" @done(19-04-26 18:44)
