@@ -77,6 +77,10 @@ nav {
         &:hover{
             background-color: var(--color-scorpion);
             color: var(--color-white);
+        &.current{
+            background-color: var(--color-fruit-salad);
+            color: var(--color-white);
+        }
         }
     }
 }
